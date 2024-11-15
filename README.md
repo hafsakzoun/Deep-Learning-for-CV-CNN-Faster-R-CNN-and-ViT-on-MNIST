@@ -77,4 +77,4 @@ To run the code, follow these steps:
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/repository-name.git
+   git clone https://github.com/hafsakzoun/Deep-Learning-for-CV-CNN-Faster-R-CNN-and-ViT-on-MNIST.git
