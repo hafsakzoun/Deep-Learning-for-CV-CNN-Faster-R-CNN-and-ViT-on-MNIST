@@ -41,6 +41,10 @@ The main goal of this lab is to explore and implement different deep learning ar
 
 2. **Comparison**  
    Analyze and compare the results of the ViT model with CNN and Faster R-CNN from Part 1.
+   ## Conclusion and Observation
+
+The Vision Transformer (ViT) achieved impressive results on the MNIST dataset, with a training accuracy of **95.71%** and a test accuracy of **96.87%**. While slightly less efficient than CNNs for small datasets due to its computational overhead and lack of inductive bias, ViT excelled in capturing global patterns, aided by data augmentations and a learning rate scheduler. Its strengths, such as flexibility and scalability, make it more suited for complex datasets, although it demonstrated robust performance even on a simpler task like digit classification.
+
 
 ---
 
