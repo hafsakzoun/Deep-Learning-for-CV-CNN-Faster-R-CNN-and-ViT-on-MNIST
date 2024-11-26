@@ -57,6 +57,26 @@ The main goal of this lab is to explore and implement different deep learning ar
 - **CNN & Faster R-CNN Performance**: Evaluated using accuracy, F1 score, and training time.
 - **ViT Performance**: Compared with CNN and Faster R-CNN to analyze the effectiveness of transformer-based models in computer vision.
 
+# Model Comparison: CNN vs Vision Transformer (ViT)
+
+| Metric           | CNN                  | Vision Transformer (ViT) |
+|-------------------|----------------------|---------------------------|
+| **Architecture** | Convolutional Layers with Pooling and Fully Connected Layers | Patch Embedding with Transformer Encoder |
+| **Epochs**       | 5                    | 5                         |
+| **Optimizer**    | Adam                 | Adam                      |
+| **Learning Rate**| 0.0001               | 0.0005                    |
+| **Train Accuracy**| ~98.0%              | ~95.7%                    |
+| **Test Accuracy** | 97.87%              | 96.87%                    |
+| **Loss Function** | CrossEntropyLoss     | CrossEntropyLoss          |
+| **Strengths**    | Efficient and fast convergence | Handles larger context and long-term dependencies |
+| **Weaknesses**   | Limited in capturing global context | Slower training due to complexity |
+| **Use Case**     | Best for smaller datasets like MNIST | Useful for complex datasets requiring global feature extraction |
+
+## Observations:
+- The **CNN model** achieves slightly higher accuracy on MNIST with faster training and fewer resources required.
+- The **Vision Transformer** demonstrates strong performance, leveraging transformer-based architectures to capture global relationships but at the cost of longer training time.
+
+
 ---
 
 ## **Conclusion**
